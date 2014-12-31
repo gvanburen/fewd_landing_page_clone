@@ -171,7 +171,33 @@ table {
 	color: #333333;
 	padding-top: 60px
 }
+
 .cases .content h2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 40px;
+	margin: 10px 0 40px 0;
+}
+
+.cases .content ul {
+	display: flex;/*inline-block*/
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.cases .content .devices {
+	width: 33.33333%;
+}
+
+.devices .caption {
+	width: 70%;
+	text-align: center;
+	font-weight: 400;
+	font-size: 24px;
+	margin: 20px auto;
+}
+/*.cases .content h2 {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	font-size: 40px;
@@ -187,4 +213,4 @@ table {
 	font-weight: 400;
 	font-size: 28px;
 	margin: 20px 0 20px 0;
-}
+}*/
