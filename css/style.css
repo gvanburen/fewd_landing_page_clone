@@ -10,6 +10,9 @@ html {
 	margin: 0 auto;
 	width: 970px;
 	padding: 0 15px;
+	font-family: 'Roboto', sans-serif; 
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -76,12 +79,9 @@ table {
 }
 .top-navigation .content > .links {
 	float: right;
-	margin-top: 25px;
-	font-family: 'Roboto', sans-serif; 
+	margin-top: 25px; 
 	font-size: 16px; 
 	color: #838994; 
-	letter-spacing: 0.03em;
-	-webkit-font-smoothing: antialiased;
 }
 
 .top-navigation .content .links li {
@@ -111,9 +111,6 @@ table {
 .introduction .content {
 	color: white;
 	text-align: center;
-	font-family: 'Roboto', sans-serif; 
-	letter-spacing: 0.03em;
-	-webkit-font-smoothing: antialiased;
 }
 
 .introduction .content h1,
@@ -159,4 +156,32 @@ table {
 	cursor: pointer;
 }
 
+/* Cases Section */
+.cases {
+	background-color: white;
+	text-align: center;
+	overflow: hidden;
+	padding-bottom: 100px;
+}
 
+.cases .content {
+	color: #333333;
+	padding-top: 60px
+}
+.cases .content h2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 40px;
+	margin: 10px 0 40px 0;
+}
+
+.cases .content .devices li {
+	display: inline-block;
+	margin: 0 20px;
+}
+
+.cases .content .devices h3 {
+	font-weight: 400;
+	font-size: 28px;
+	margin: 20px 0 20px 0;
+}
