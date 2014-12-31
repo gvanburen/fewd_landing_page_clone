@@ -68,6 +68,9 @@ table {
 /* Navigation Section */
 .top-navigation {
 	background-color: #fff;
+	width: 100%;
+	position: fixed;
+	z-index: 9999;
 }
 
 .top-navigation > .content {
