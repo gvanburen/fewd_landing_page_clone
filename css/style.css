@@ -107,7 +107,7 @@ table {
 	background-size: cover;
 	background-position: center bottom;
 	background-repeat: no-repeat;
-	height: 450px;
+	height: 600px;
 	overflow: auto;
 }
 
@@ -122,7 +122,7 @@ table {
 }
 
 .introduction .content h1 {
-	margin-top: 150px;
+	margin-top: 250px;
 	font-size: 40px;
 }
 
